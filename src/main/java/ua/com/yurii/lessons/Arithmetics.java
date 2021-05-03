@@ -1,12 +1,13 @@
 package ua.com.yurii.lessons;
 
-public class Numbers {
+public class Arithmetics {
 
-    public int sum(int number) {
+    public int sumUpTo(int number) {
         int result = 0;
         for (int i = 0; i <= number; i++) {
             result += i;
         }
         return result;
     }
+
 }
